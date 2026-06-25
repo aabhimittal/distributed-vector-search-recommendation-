@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Load test output
+loadtest/results_*.csv
+loadtest/results_*.html
+
+# Model / HF cache
+models/
+.cache/
